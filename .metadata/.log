@@ -237,3 +237,57 @@ Binding(CTRL+-,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-25 14:04:54.761
 !MESSAGE executing callback sts4.classpath.vObQmzDZ SUCCESS [終了しました]
+
+!ENTRY org.eclipse.jface 2 0 2020-01-25 14:19:33.540
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-25 14:19:33.540
+!MESSAGE CTRL+SHIFT+C の競合が発生しました:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,コメントの切り替え,
+		選択された行のコメントを切り替えます,
+		Category(org.eclipse.jdt.ui.category.source,ソース,Java ソース・アクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35730a4d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.copy,コピー,
+		,
+		Category(org.eclipse.tm.terminal.category1,ターミナル・ビュー・コマンド,ターミナル・ビュー・コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d024aff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.EditContext,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,コメントの切り替え,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2adb2ef4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-25 14:19:33.540
+!MESSAGE ALT+ARROW_UP の競合が発生しました:
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.maximize,アクティブ・ビューまたはエディターの最大化,
+		,
+		Category(org.eclipse.tm.terminal.category1,ターミナル・ビュー・コマンド,ターミナル・ビュー・コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54415d35,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.EditContext,,,system)
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.moveLineUp,1 行上へ移動,
+		選択した行を上に移動します,
+		Category(org.eclipse.ui.category.textEditor,テキスト編集,テキスト編集コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@794d0492,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2020-01-25 14:21:46.963
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:90)
