@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="2 個の要素を &apos;TIL/src/rento.hitaka.til&apos; に移動&#x0D;&#x0A;- 元のプロジェクト: &apos;TIL&apos;&#x0D;&#x0A;- 宛先要素: &apos;TIL/src/rento.hitaka.til&apos;&#x0D;&#x0A;- オリジナル要素:&#x0D;&#x0A;     Main.java&#x0D;&#x0A;     Point.java&#x0D;&#x0A;- リファクタリングされた要素の参照を更新" description="コンパイル単位を移動" destination="/src&lt;rento.hitaka.til" element1="/src&lt;{Main.java" element2="/src&lt;{Point.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1580020537954" units="2" version="1.0"/>
+</session>

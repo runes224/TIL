@@ -1,3 +1,4 @@
+//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
 ACTIVE_HYPERLINK_COLOR=255,200,0
 ATMARK_RULE=89,179,179
 ATTRIBUTE_DELIM=89,179,179
@@ -11,6 +12,8 @@ CONFLICTING_COLOR=232,14,64
 CONTENT_ASSIST_BACKGROUND_COLOR=46,52,56
 CONTENT_ASSIST_FOREGROUND_COLOR=233,235,237
 COUNTER_COLOR=0,208,255
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.presentation.default\tTorg.eclipse.ui.workbenchMisc
+ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jface.textfont
 DECORATIONS_COLOR=181,152,86
 ERROR=255,96,96
 ERROR_COLOR=247,68,117
