@@ -46,5 +46,6 @@ secondaryIPColor=47,52,54
 showWhitespaceCharacters=true
 spacesForTabs=true
 spellingIndicationColor=253,170,211
+tabWidth=2
 whitespaceCharacterAlphaValue=20
 writeOccurrenceIndicationColor=65,65,4
