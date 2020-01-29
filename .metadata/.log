@@ -577,3 +577,24 @@ java.lang.IllegalArgumentException: Argument cannot be null
 java.lang.IllegalArgumentException: timeout value is negative
 	at java.lang.Thread.sleep(Native Method)
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:90)
+
+!ENTRY org.eclipse.ui 2 2 2020-01-28 07:53:15.517
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-28 08:05:18.706
+!MESSAGE Preparing classpath changed notification TIL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-28 08:05:18.734
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-28 08:05:18.746
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-28 08:05:18.750
+!MESSAGE buffering callback sts4.classpath.dmmrdisU TIL false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-28 08:05:18.750
+!MESSAGE executing callback sts4.classpath.dmmrdisU 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-28 08:05:18.782
+!MESSAGE executing callback sts4.classpath.dmmrdisU SUCCESS [終了しました]

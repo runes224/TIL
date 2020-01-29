@@ -12,8 +12,8 @@ public class Main {
 	
 	Set<Point> points = new HashSet<>();
 	points.add(p1);
-	points.add(p2);
-	System.out.println(p1);
+	points.add(p1);
+	System.out.println(points.size());
 	}
 
 }
