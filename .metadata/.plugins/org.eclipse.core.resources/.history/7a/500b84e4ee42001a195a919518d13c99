@@ -1,0 +1,13 @@
+package rento.hitaka.til;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class NumberStack<E extends Number> {
+  // EはNumberクラスまたはそのサブクラスで泣けらばならない
+  private List<E> taskList;
+  
+  private NumberStack( ) {
+    taskList = new ArrayList<>();
+  }
+}
