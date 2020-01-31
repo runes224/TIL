@@ -13,13 +13,8 @@ public class Student {
     return this.name;
   }
   
-  public int getScore() {
+  public getScore() {
     return this.score;
-  }
-  
-  @Override
-  public String toString() {
-    return name + "." + score;
   }
 
 }

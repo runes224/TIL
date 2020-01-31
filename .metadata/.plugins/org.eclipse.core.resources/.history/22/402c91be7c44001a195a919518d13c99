@@ -1,0 +1,8 @@
+package rento.hitaka.til;
+
+public class SortBeforeJava7 {
+  public static void main(String[] args) {
+    
+  }
+
+}

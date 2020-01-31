@@ -1,0 +1,21 @@
+package rento.hitaka.til;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SortBeforeJava7 {
+  public static void main(String[] args) {
+    List<Student> students = new ArrayList<>();
+    students.add(new Student("Ken", 100));
+    students.add(new Student("Shin", 60));
+    students.add(new Student("Takuya", 80));
+  }
+  
+  Collections.sort(studens, new Comparator<Student>() {
+    @override
+    public int compare(Student student1, Student student2) {
+      return Integer.compare(student1.getScore(), student2.getScore());
+    }
+  });
+
+}
