@@ -1,0 +1,17 @@
+package rento.hitaka.til.lambda;
+
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
+public class InitializeListByAtream {
+
+  public static void main(String[] args) {
+    // TODO 自動生成されたメソッド・スタブ
+    
+    List<Integer> integerList = IntStream.of(1, 62, 31, 54, 31).boxed()
+        .collect(Collectors.toList());
+
+  }
+
+}

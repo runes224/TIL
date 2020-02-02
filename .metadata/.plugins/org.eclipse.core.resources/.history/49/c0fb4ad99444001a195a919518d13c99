@@ -1,0 +1,17 @@
+package rento.hitaka.til.lambda;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class StreamSample {
+
+  public static void main(String[] args) {
+    
+    List<Student> list = new ArrayList<>();
+    Stream<String> stream = list.stream();
+    stream.forEach(System.out::println);
+    
+  }
+
+}

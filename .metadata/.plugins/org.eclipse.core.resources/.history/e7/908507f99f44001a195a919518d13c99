@@ -1,0 +1,14 @@
+package rento.hitaka.til.lambda;
+
+public class IntermeditateOperation {
+
+  public static void main(String[] args) {
+    
+    // 「要素の置き換え」
+    
+    @FunctionalInterface
+    
+
+  }
+
+}

@@ -1,0 +1,23 @@
+package rento.hitaka.til.lambda;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class StreamSample {
+
+  public static void main(String[] args) {
+    
+    List<String> list = new ArrayList<>();
+    list.add("Sato");
+    list.add("Koji");
+    list.add("Kawamura");
+    Stream<String> stream = list.stream();
+    stream.forEach(System.out::println);
+    
+    Stream<String> stream = Stream.of("Murata", "Okada", "Tanihiro");
+    stream.forEach(System.out::println);
+    
+  }
+
+}

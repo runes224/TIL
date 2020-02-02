@@ -1,0 +1,11 @@
+package rento.hitaka.til.lambda;
+
+import java.util.Arrays;
+
+public class MethodReference {
+  public static void main(String[] args) {
+    List<String> = Arrays.asList("Xxx", "Yyy", "Zzz");
+    list.Each(System.out::println)
+  }
+
+}

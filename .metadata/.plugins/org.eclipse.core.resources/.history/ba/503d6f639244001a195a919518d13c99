@@ -1,0 +1,14 @@
+package rento.hitaka.til.lambda;
+
+import java.util.Arrays;
+
+public class Stream {
+
+  public static void main(String[] args) {
+    
+    List<String> list = Arrays.asList("Murata", "Okada", "Tanimoto");
+    Stream
+    
+  }
+
+}

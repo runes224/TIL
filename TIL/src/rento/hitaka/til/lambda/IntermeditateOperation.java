@@ -1,0 +1,27 @@
+package rento.hitaka.til.lambda;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class IntermeditateOperation {
+
+  public static void main(String[] args) {
+
+    // 「要素の置き換え」
+
+    List<Student> students = new ArrayList<>();
+    students.add(new Student("Ken", 100));
+    students.add(new Student("Shin", 60));
+    students.add(new Student("Takuya", 80));
+
+//    Stream<Integer> stream = students.stream().map(s -> s.getScore());
+//    stream.forEach(System.out::println);
+    
+    // studentsのリストをInteger型のstreamに変換して終端処理
+    students.stream().map(Student::getScore).forEach(System.out::println);
+  }
+  
+
+  
+}
