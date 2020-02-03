@@ -862,3 +862,96 @@ java.lang.IllegalArgumentException: timeout value is negative
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-01 11:24:20.060
 !MESSAGE executing callback sts4.classpath.YVggMNhF SUCCESS [終了しました]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:18.172
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YVggMNhF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:18.179
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.YVggMNhF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:18.186
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:18.189
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YVggMNhF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:21.344
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:21.347
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@d8a5846[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=631)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:21.349
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:25.103
+!MESSAGE Boot LS startup time from start to initialized: 3748ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:25.159
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LZYUMUkSisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:25.167
+!MESSAGE subscribing to classpath changes: sts4.classpath.LZYUMUkS isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:25.171
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:25.173
+!MESSAGE subsribers = {sts4.classpath.LZYUMUkS=クラスパス通知の送信(4953)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:25.176
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:25.178
+!MESSAGE project TIL ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:25.186
+!MESSAGE Preparing classpath changed notification TIL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:25.187
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:25.190
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:25.191
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LZYUMUkS => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:25.192
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:25.204
+!MESSAGE buffering callback sts4.classpath.LZYUMUkS TIL false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:25.206
+!MESSAGE executing callback sts4.classpath.LZYUMUkS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-02 10:28:25.256
+!MESSAGE executing callback sts4.classpath.LZYUMUkS SUCCESS [終了しました]
+
+!ENTRY com.genuitec.eclipse.theming.ui 4 0 2020-02-03 08:12:21.037
+!MESSAGE www.genuitec.com
+!STACK 0
+java.net.UnknownHostException: www.genuitec.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at com.genuitec.eclipse.theming.ui.IconDownloaderJob.getApprovedDefinitions(IconDownloaderJob.java:86)
+	at com.genuitec.eclipse.theming.ui.IconDownloaderJob.run(IconDownloaderJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

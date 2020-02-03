@@ -1,0 +1,22 @@
+package rento.hitaka.til.exception;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.util.Properties;
+
+public class ExampleContinue {
+  public static void main(String[] args) {
+    
+    Properties props = new Properties();
+    props.load(Files.newInputStream(file.getPath()));
+    
+    String strValue = null;
+    try {
+      strValue = props.get("key");
+    } catch(IOException ex) {
+      
+    }
+    
+  }
+
+}

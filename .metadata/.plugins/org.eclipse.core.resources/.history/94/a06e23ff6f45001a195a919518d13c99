@@ -1,0 +1,15 @@
+package rento.hitaka.til.exception;
+
+public class ExampleContinue {
+  public static void main(String[] args) {
+    
+    String strValue = null;
+    try {
+      strValue = props.get("key");
+    } catch(IOException ex) {
+      
+    }
+    
+  }
+
+}
